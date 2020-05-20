@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{781B1CC3-B89F-42A3-B651-32825F890A6C}" SchemaVersion="94" RootDocumentID="{329819E6-77D5-4E70-9CEF-A31F1F4BF5F8}">
+	<GameParameters>
+		<WorkUnit Name="Renan" ID="{781B1CC3-B89F-42A3-B651-32825F890A6C}" OwnerID="{329819E6-77D5-4E70-9CEF-A31F1F4BF5F8}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="GP_SfxVolume" ID="{34A3DEAA-0E3D-4A33-9AF9-6E8881F4CD37}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

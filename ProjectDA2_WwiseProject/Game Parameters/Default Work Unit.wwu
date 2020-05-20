@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{329819E6-77D5-4E70-9CEF-A31F1F4BF5F8}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{329819E6-77D5-4E70-9CEF-A31F1F4BF5F8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{329819E6-77D5-4E70-9CEF-A31F1F4BF5F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Renan" ID="{781B1CC3-B89F-42A3-B651-32825F890A6C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

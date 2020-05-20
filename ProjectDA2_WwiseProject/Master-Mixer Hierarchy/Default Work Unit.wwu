@@ -10,7 +10,43 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX_Volume" ID="{1C4713AE-CBC4-461B-9D66-441ADDAAA9E0}"/>
+						<Bus Name="SFX_Volume" ID="{1C4713AE-CBC4-461B-9D66-441ADDAAA9E0}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8527EC23-E79F-49FE-A9FA-8CD8F561AADA}" ShortID="488759315">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_SfxVolume" ID="{34A3DEAA-0E3D-4A33-9AF9-6E8881F4CD37}" WorkUnitID="{781B1CC3-B89F-42A3-B651-32825F890A6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8D2F7208-2444-40C3-9621-B2E435F2FD4F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7.15255737304688E-07</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
