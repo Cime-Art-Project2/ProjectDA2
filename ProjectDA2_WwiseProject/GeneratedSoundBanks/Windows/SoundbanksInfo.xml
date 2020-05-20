@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3830418979" Name="Play_SFX_MusicTest" ObjectPath="\Events\Default Work Unit\Play_SFX_MusicTest"/>
+				<Event Id="1072569702" Name="Play_SFX_Test" ObjectPath="\Events\Default Work Unit\Play_SFX_Test"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="837762911" Language="SFX">
+					<ShortName>Camera_Shutter1.WAV</ShortName>
+					<Path>SFX\Camera_Shutter1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="934680869" Language="SFX">
+					<ShortName>SmashTheme.WAV</ShortName>
+					<Path>SFX\SmashTheme_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

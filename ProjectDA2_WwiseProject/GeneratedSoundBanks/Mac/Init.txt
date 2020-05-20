@@ -1,0 +1,14 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	611934194	GP_MusicVolume			\Default Work Unit\Renan\GP_MusicVolume	
+	3217948474	GP_SfxVolume			\Default Work Unit\Renan\GP_SfxVolume	
+	3647358407	GP_GeneralVolume			\Default Work Unit\Renan\GP_GeneralVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Master Audio Bus\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\Master Audio Bus\SFX_Volume	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

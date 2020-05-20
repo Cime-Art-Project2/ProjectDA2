@@ -4,6 +4,36 @@
 		<WorkUnit Name="Default Work Unit" ID="{60301FE8-BCA4-403D-80D4-4AAD1FC3E26C}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{02DABA26-E4BC-4FBF-85CC-516E93890DBB}" ShortID="590533295">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="GP_GeneralVolume" ID="{DB747D5B-04A2-4F93-B662-AD7E6CFA4D15}" WorkUnitID="{781B1CC3-B89F-42A3-B651-32825F890A6C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A4C00843-867C-415B-B1E8-E01C7B50C94B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{AF414023-C683-46FF-86A3-435082F2F77E}" WorkUnitID="{AD129DD9-E28A-4146-BFAF-32FE218921DD}"/>
@@ -44,6 +74,38 @@
 									<ValueList>
 										<Value>7.15255737304688E-07</Value>
 									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Music_Volume" ID="{BC7ACFF5-B9C6-41DA-A849-9391608F46A9}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4A88CFC9-B0D1-43FC-9BE6-F7D673647010}" ShortID="956807200">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_MusicVolume" ID="{42557CAE-53B2-4A79-8F2F-DA4A3A0C1D81}" WorkUnitID="{781B1CC3-B89F-42A3-B651-32825F890A6C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F6BFD900-F253-43A2-904D-1C78F6AB08B0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 						</Bus>
