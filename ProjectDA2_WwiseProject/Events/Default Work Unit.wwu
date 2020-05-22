@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{68316D2C-B642-428A-89C1-D479FF953D5A}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{68316D2C-B642-428A-89C1-D479FF953D5A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{68316D2C-B642-428A-89C1-D479FF953D5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_MusicTest" ID="{DD180858-0113-49A3-A34A-E6C9F3559BA6}">
+					<ChildrenList>
+						<Action Name="" ID="{F4C049B6-C7B3-4762-98B5-A37E6499C4A6}" ShortID="26673408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MusicTest" ID="{6F37841A-1BC4-44B4-9589-CF6EDEC1F99E}" WorkUnitID="{4B5E1F49-AEDF-4B14-B015-E28C788942F3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Test" ID="{4A4677B4-2E78-443D-B499-EF622A0DF827}">
+					<ChildrenList>
+						<Action Name="" ID="{C3DD70BE-64D3-47B6-B8E3-C0121B75B1A6}" ShortID="111370131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Test" ID="{004EAD96-6D7A-4A9C-886F-1EDCC9BCC80E}" WorkUnitID="{4B5E1F49-AEDF-4B14-B015-E28C788942F3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

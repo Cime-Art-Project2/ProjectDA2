@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B5E1F49-AEDF-4B14-B015-E28C788942F3}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Renan" ID="{4B5E1F49-AEDF-4B14-B015-E28C788942F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="AM_SFX" ID="{C7AD41A8-3AD4-4EDF-B6C7-54A23482C800}" ShortID="1025113004">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{640EF7CB-B104-4736-B781-06743D215D1E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX_Volume" ID="{1C4713AE-CBC4-461B-9D66-441ADDAAA9E0}" WorkUnitID="{60301FE8-BCA4-403D-80D4-4AAD1FC3E26C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Test" ID="{004EAD96-6D7A-4A9C-886F-1EDCC9BCC80E}" ShortID="1060069904">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{640EF7CB-B104-4736-B781-06743D215D1E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{60301FE8-BCA4-403D-80D4-4AAD1FC3E26C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Camera_Shutter1" ID="{2FC1EF42-DA03-435C-9887-F3D2BA23A914}" ShortID="837762911">
+									<Language>SFX</Language>
+									<AudioFile>Camera_Shutter1.WAV</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Camera_Shutter1" ID="{2FC1EF42-DA03-435C-9887-F3D2BA23A914}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AM_Music" ID="{0F68A143-F125-4ED7-AE24-17DDF85048C8}" ShortID="274226467">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{640EF7CB-B104-4736-B781-06743D215D1E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music_Volume" ID="{BC7ACFF5-B9C6-41DA-A849-9391608F46A9}" WorkUnitID="{60301FE8-BCA4-403D-80D4-4AAD1FC3E26C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_MusicTest" ID="{6F37841A-1BC4-44B4-9589-CF6EDEC1F99E}" ShortID="603090498">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{640EF7CB-B104-4736-B781-06743D215D1E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{60301FE8-BCA4-403D-80D4-4AAD1FC3E26C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SmashTheme" ID="{E501F3E2-CF14-4777-B5D0-4B552E35C79B}" ShortID="934680869">
+									<Language>SFX</Language>
+									<AudioFile>SmashTheme.WAV</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SmashTheme" ID="{E501F3E2-CF14-4777-B5D0-4B552E35C79B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

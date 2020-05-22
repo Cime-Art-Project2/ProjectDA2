@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1072569702	Play_SFX_Test			\Default Work Unit\Play_SFX_Test	
+	3830418979	Play_SFX_MusicTest			\Default Work Unit\Play_SFX_MusicTest	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	837762911	SFX_Test	C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\.cache\Mac\SFX\Camera_Shutter1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Renan\AM_SFX\SFX_Test		210904
+	934680869	SFX_MusicTest	C:\Users\renan\Documents\Unreal Projects\ProjectDA2\ProjectDA2_WwiseProject\.cache\Mac\SFX\SmashTheme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Renan\AM_Music\SFX_MusicTest		40427584
+
